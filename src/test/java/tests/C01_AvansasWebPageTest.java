@@ -50,7 +50,7 @@ public class C01_AvansasWebPageTest {
             }
         }System.out.println("Bic Evolution Kalem sayisi: " +  sayac);
 
-        if (sayac >= 0) {
+        if (sayac > 0) {
             System.out.println("Bic evolution adedi sıfırdan fazla testi PASS");
         }else {
             System.out.println("Bic Evolution adedi sıfırdan az testi FAILED");
