@@ -42,7 +42,7 @@ public class C01_AvansasWebPageTest {
 
         List<WebElement> bicEvolutionKalemler = Driver.getDriver().findElements(By.xpath("//h3"));
 
-        int sayac = 1;
+        int sayac = 0;
         for (WebElement each : bicEvolutionKalemler
         ) {
             if (each.getText().contains("Bic Evolution")) {
